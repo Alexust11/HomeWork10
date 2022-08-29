@@ -66,9 +66,12 @@ public class Main {
             System.out.println(books[i].getAuthor().getSurName()+ " "+books[i].getAuthor().getName()+" "+books[i].getTitle()+" в "+books[i].getYearPublishing());
 
         }
+// Новая задача к 10-й домашке-----------------
 
-
-
+        System.out.println("_________Новая задача к домашке Методы объектов______");
+        System.out.println(book2.toString());
+        System.out.println(author1.toString());
+        System.out.println(book1.equals(book2));
 
     }
 

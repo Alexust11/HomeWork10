@@ -10,7 +10,9 @@ public class Author {
     public String getSurName() {
         return surName;
     }
-
+    public String toString() {
+        return getSurName()+" "+getName();
+    }
     public String getName() {
         return name;
     }

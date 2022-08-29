@@ -15,7 +15,9 @@ public class Book {
         return title;
     }
 
-
+    public  String toString() {
+        return getTitle()+" "+getAuthor().getSurName()+" "+ getAuthor().getName()+" "+getYearPublishing();
+    }
     public Author getAuthor() {
 
         return author;
@@ -29,6 +31,14 @@ public class Book {
 
     public void setYearPublishing(int yearPublishing) {
         this.yearPublishing = yearPublishing;
+    }
+
+    public Boolean equals(Book book) {
+        if (this == book) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
 }
