@@ -69,10 +69,15 @@ public class Main {
 // Новая задача к 10-й домашке-----------------
 
         System.out.println("_________Новая задача к домашке Методы объектов______");
-        System.out.println(book2.toString());
-        System.out.println(author1.toString());
+        System.out.println(book2);
+        System.out.println(author1);
         System.out.println(book1.equals(book2));
-
+        System.out.println(author1.equals(author1));
+        System.out.println("author1.hashCode() = " + author1.hashCode());
+        System.out.println(book1.equals(book2));
+        System.out.println(book1.equals(book1));
+        System.out.println("book2.hashCode() = " + book2.hashCode());
+        System.out.println(book1.hashCode() == book1.hashCode());
     }
 
 }
