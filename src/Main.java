@@ -79,5 +79,5 @@ public class Main {
         System.out.println("book2.hashCode() = " + book2.hashCode());
         System.out.println(book1.hashCode() == book1.hashCode());
     }
-
+        //Задача
 }
